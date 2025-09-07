@@ -45,8 +45,8 @@ node index.js           renderLargerThumbnail: false
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/stvnnvs",
-                    merchant_url: "https://t.me/stvnnvs"
+                    url: "https://t.me/rapipppmods",
+                    merchant_url: "https://t.me/rapipppmods"
                 })
             }
         ]
@@ -61,18 +61,18 @@ Send interactive messages with document from buffer (file system) without contex
 await sock.sendMessage(jid, {
     interactiveMessage: {
         title: "Hello World",
-        footer: "telegram: @stvnnvs",
+        footer: "telegram: @rapipppmods",
         document: fs.readFileSync("./package.json"),
         mimetype: "application/pdf",
-        fileName: "stvnnvs.pdf",
+        fileName: "rapipppmods.pdf",
         jpegThumbnail: fs.readFileSync("./document.jpeg"),
         buttons: [
             {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                     display_text: "Telegram",
-                    url: "https://t.me/stvnnvs",
-                    merchant_url: "https://t.me/stvnnvs"
+                    url: "https://t.me/rapipppmods",
+                    merchant_url: "https://t.me/rapipppmods"
                 })
             }
         ]
